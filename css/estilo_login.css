@@ -1,0 +1,100 @@
+/* Estilos para el fondo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/fondo.jpg'); /* Cambia la ruta si es necesario */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del contenedor de inicio de sesión */
+.login-container {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro translúcido */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9); /* Sombras más profundas */
+    border-radius: 15px; /* Bordes redondeados más suaves */
+    padding: 20px;
+    color: white; /* Texto blanco para mejor legibilidad */
+}
+
+/* Estilos del título de bienvenida */
+.login-container h2 {
+    margin: 0 0 20px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-weight: 200;
+}
+
+/* Contenedor del campo para incluir la imagen */
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* Estilos del campo de texto y contraseña */
+.input-container input[type="text"],
+.input-container input[type="password"] {
+    width: 83%;
+    padding: 10px 10px 10px 40px; /* Añade espacio a la izquierda para la imagen */
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Imagen de fondo para el campo de usuario */
+.input-container input[type="text"] {
+    background-image: url('../img/usuario.png'); /* Cambia la ruta a tu imagen */
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px; /* Ajusta el tamaño de la imagen */
+}
+
+/* Imagen de fondo para el campo de contraseña */
+.input-container input[type="password"] {
+    background-image: url('../img/candado.jpg'); /* Cambia la ruta a tu imagen */
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+
+/* Estilos para el botón */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-container button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Estilos para el enlace de 'Forgot Password' */
+.login-container a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
