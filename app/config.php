@@ -6,10 +6,10 @@
  * Time: 13:00
  */
 //Definir las constantes para la conexion a la base de datos
-define('SERVIDOR','localhost');
+define('SERVIDOR','sehuacho.com');
 define('PUERTO','3306');
-define('USUARIO','root');
-define('PASSWORD','');
+define('USUARIO','mechan');
+define('PASSWORD','_t9OEZl8qw9xb*fS');
 define('BD','bdimportadora');
 
 //Definir la variable $servidor con los datos de la conexion
@@ -25,7 +25,7 @@ try{
 }
 
 //Definir la variable $URL con la ruta del sistema
-$URL = "http://localhost/importadora/";
+$URL = "https://sehuacho.ddns.net/importadora/";
 
 //Definir la zona horaria
 date_default_timezone_set("America/Caracas");
