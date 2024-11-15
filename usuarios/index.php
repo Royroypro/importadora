@@ -11,7 +11,7 @@ include "../layout/footer.php";
 
     <!-- Content here-->
     <div class="container-fluid" style="margin: 50px 0;">
-        <form action="../app/controllers/usuarios/agregar_usuario.php" method="POST" class="form-neon" autocomplete="off" style="background-color: #f3f4f6; padding: 20px; border-radius: 5px;">
+        <form action="../app/controllers/usuarios/agregar_usuario.php" method="POST" class="form-neon" style="background-color: #f3f4f6; padding: 20px; border-radius: 5px;">
             <fieldset>
                 <legend style="color: #4a5568;"><i class="fas fa-user"></i> &nbsp; Agregar Usuario</legend>
                 <div class="container-fluid">
@@ -49,7 +49,6 @@ include "../layout/footer.php";
                             </div>
                         </div>
 
-
                         <div class="col-12 col-md-6">
                             <div class="form-group">
                                 <label for="estado" class="bmd-label-floating" style="color: #2d3748;">Estado</label>
@@ -70,9 +69,6 @@ include "../layout/footer.php";
                                 <input type="password" class="form-control" name="repetir_password" id="repetir_password" maxlength="100" style="border-color: #cbd5e0;">
                             </div>
                         </div>
-
-
-
 
                         <div class="col-12 col-md-6">
                             <div class="form-group">
@@ -101,7 +97,6 @@ include "../layout/footer.php";
                 <button type="reset" class="btn btn-raised btn-dark btn-sm" style="background-color: #718096;"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
                 &nbsp; &nbsp;
                 <button type="submit" class="btn btn-raised btn-success btn-sm" style="background-color: #48bb78;"><i class="far fa-save"></i> &nbsp; GUARDAR</button>
-
 
             </p>
             

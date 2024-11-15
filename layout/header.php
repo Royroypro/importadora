@@ -16,7 +16,7 @@
 	<!-- Sweet Alerts V8.13.0 CSS file -->
 	<link rel="stylesheet" href="<?php echo $URL; ?>/SPM/css/sweetalert2.min.css">
 	<!-- Sweet Alert V8.13.0 JS file-->
-	<script src="<?php echo $URL; ?>/PSM/js/sweetalert2.min.js" ></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 	<!-- jQuery Custom Content Scroller V3.1.5 -->
 	<link rel="stylesheet" href="<?php echo $URL; ?>/SPM/css/jquery.mCustomScrollbar.css">
@@ -68,7 +68,7 @@
 									<a href="<?php echo $URL; ?>/usuarios"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar usuario</a>
 								</li>
 								<li>
-									<a href="<?php echo $URL; ?>/usuarios/lista_usuario.php"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
+									<a href="<?php echo $URL; ?>/usuarios/lista_usuarios.php"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de usuarios</a>
 								</li>
 				
 							</ul>
