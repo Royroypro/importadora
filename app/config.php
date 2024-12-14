@@ -25,7 +25,7 @@ try{
 }
 
 //Definir la variable $URL con la ruta del sistema
-$URL = "https://sehuacho.ddns.net/importadora/";
+$URL = "https://sehuacho.ddns.net:8443/importadora/";
 
 //Definir la zona horaria
 date_default_timezone_set("America/Caracas");
